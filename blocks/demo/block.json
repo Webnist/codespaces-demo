@@ -1,0 +1,29 @@
+{
+	"apiVersion": 2,
+	"title": "WCUS Demo",
+	"description": "Demo block for WCUS 2021",
+	"text-domain": "wcus-2021",
+	"name": "wcus-2021/demo",
+	"icon": "tickets",
+	"category": "formatting",
+	"attributes": {
+		"label": {
+			"type": "string"
+		},
+		"headline": {
+			"type": "string"
+		},
+		"description": {
+			"type": "string"
+		}
+	},
+	"example": {
+		"attributes": {
+			"headline": "The Road Not Taken",
+			"label": "by Robert Frost",
+			"description": "Two roads diverged in a yellow wood,\u003cbr\u003eAnd sorry I could not travel both\u003cbr\u003eAnd be one traveler, long I stood\u003cbr\u003eAnd looked down one as far as I could\u003cbr\u003eTo where it bent in the undergrowth;"
+		}
+	},
+	"editorScript": "file:../../build/index.js",
+	"style": "file:../../build/style-index.css"
+}
